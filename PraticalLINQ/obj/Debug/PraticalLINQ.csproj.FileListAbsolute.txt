@@ -1,0 +1,6 @@
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\bin\Debug\PraticalLINQ.exe.config
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\bin\Debug\PraticalLINQ.exe
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\bin\Debug\PraticalLINQ.pdb
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\obj\Debug\PraticalLINQ.csprojResolveAssemblyReference.cache
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\obj\Debug\PraticalLINQ.exe
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PraticalLINQ\obj\Debug\PraticalLINQ.pdb

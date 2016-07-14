@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PraticalLINQ", "PraticalLINQ.csproj", "{0FFFBF09-BE18-4599-A1C6-2A33035020D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalLINQ.Tests", "..\PracticalLINQ.Tests\PracticalLINQ.Tests.csproj", "{DFBA5A3C-CC79-43C1-98BA-9DD457050FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalLINQ.Library", "..\PracticalLINQ.Library\PracticalLINQ.Library.csproj", "{11C27783-7F19-4C1B-B32D-EF3CC486557A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFFBF09-BE18-4599-A1C6-2A33035020D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFFBF09-BE18-4599-A1C6-2A33035020D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFFBF09-BE18-4599-A1C6-2A33035020D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFFBF09-BE18-4599-A1C6-2A33035020D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBA5A3C-CC79-43C1-98BA-9DD457050FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBA5A3C-CC79-43C1-98BA-9DD457050FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBA5A3C-CC79-43C1-98BA-9DD457050FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBA5A3C-CC79-43C1-98BA-9DD457050FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C27783-7F19-4C1B-B32D-EF3CC486557A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C27783-7F19-4C1B-B32D-EF3CC486557A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C27783-7F19-4C1B-B32D-EF3CC486557A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C27783-7F19-4C1B-B32D-EF3CC486557A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

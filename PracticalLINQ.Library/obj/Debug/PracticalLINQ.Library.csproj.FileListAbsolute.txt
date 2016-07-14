@@ -1,0 +1,4 @@
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Library\bin\Debug\PracticalLINQ.Library.dll
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Library\bin\Debug\PracticalLINQ.Library.pdb
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Library\obj\Debug\PracticalLINQ.Library.dll
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Library\obj\Debug\PracticalLINQ.Library.pdb

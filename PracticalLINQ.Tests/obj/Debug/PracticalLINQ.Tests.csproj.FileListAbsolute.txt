@@ -1,0 +1,9 @@
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PracticalLINQ.Tests.dll
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PracticalLINQ.Tests.pdb
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PraticalLINQ.exe
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PraticalLINQ.pdb
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\obj\Debug\PracticalLINQ.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\obj\Debug\PracticalLINQ.Tests.dll
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\obj\Debug\PracticalLINQ.Tests.pdb
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PracticalLINQ.Library.dll
+C:\Users\Ash\Desktop\pluralsight\deborah kurata\PracticalLINQ\PracticalLINQ.Tests\bin\Debug\PracticalLINQ.Library.pdb
