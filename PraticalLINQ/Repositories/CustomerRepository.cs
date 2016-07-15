@@ -103,6 +103,44 @@ namespace PraticalLINQ
             return query;
         }
 
+        public dynamic GetInvoiceTotalByCustomerType(
+            List<Customer> customerList,
+            List<CustomerType> customerTypeList)
+        {
+            var customerTypeQuery = customerList
+                .Join(customerTypeList,
+                      c => c.TypeId,
+                      type => type.TypeId,
+                      (c, t) => new
+                      {
+                          CustomerInstance = c,
+                          CustomerTypeName = t
+                      });
+
+            var query = customerTypeQuery
+                .GroupBy(customer =>
+                    //We want to eventuall group by TypeId
+                    customer.CustomerTypeName, 
+
+                    // We select each customer and find the sum of their invoices
+                    c => c.CustomerInstance.InvoiceList.Sum(invoice => invoice.TotalAmount),
+
+                    // Then we project onto a new type, the TypeId matched with the
+                    // sum of all invoices of all customers, that match that TypeId 
+                    (groupKey, invoiceTotalForIndividualCustomers) => new
+                    {
+                        TypeOfCustomer = groupKey.TypeName,
+                        InvoicedAmount = invoiceTotalForIndividualCustomers.Sum()
+                    });
+
+            foreach (var item in query)
+            {
+                Console.WriteLine($"{item.TypeOfCustomer} : {item.InvoicedAmount}");
+            }
+
+            return query;
+        }
+
         public List<Customer> Retrieve()
         {
             var invoiceRepo = new InvoiceRepository();

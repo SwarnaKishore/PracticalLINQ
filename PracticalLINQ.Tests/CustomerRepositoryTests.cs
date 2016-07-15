@@ -128,5 +128,20 @@ namespace PracticalLINQ.Tests
             Assert.IsNotNull(query);
 
         }
+
+        [TestMethod]
+        public void GetInvoiceTotalByCustomerType()
+        {
+            var repo = new CustomerRepository();
+            var customerList = repo.Retrieve();
+
+            var typeRepo = new CustomerTypeRepository();
+            var typeList = typeRepo.Retrieve();
+
+            var query = repo.GetInvoiceTotalByCustomerType(customerList, typeList);
+
+            //NOT REALLY A TEST
+
+        }
     }
 }

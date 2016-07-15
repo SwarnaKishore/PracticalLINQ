@@ -13,5 +13,11 @@ namespace PraticalLINQ.Implementations
         public DateTime InvoiceDate { get; set; }
         public DateTime DueDate { get; set; }
         public bool? Paid { get; set; }
+
+        public int NumberOfUnits { get; set; }
+        public decimal Amount { get; set; }
+        public decimal DiscountPercent { get; set; }
+
+        public decimal TotalAmount { get { return this.Amount - (this.Amount * (this.DiscountPercent/100)); } }
     }
 }
